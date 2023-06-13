@@ -75,6 +75,7 @@ header {
   position: relative;
   background: #003329;
   padding: 100px;
+  height: 100vh;
 }
 
 .sec h2 {

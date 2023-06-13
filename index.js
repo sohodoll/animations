@@ -7,12 +7,14 @@ const hill5 = document.getElementById('hill5');
 const handleScroll = () => {
   let value = window.scrollY;
 
-  text.style.marginTop = value * 2.5 + 'px';
-  leaf.style.top = value * -1.5 + 'px';
-  leaf.style.left = value * 1 + 'px';
-  hill4.style.left = value * -0.5 + 'px';
-  hill5.style.left = value * 0.5 + 'px';
-  hill1.style.top = value * 1 + 'px';
+  if (value < 800) {
+    text.style.marginTop = value * 2.5 + 'px';
+    leaf.style.top = value * -1.5 + 'px';
+    leaf.style.left = value * 1 + 'px';
+    hill4.style.left = value * -0.5 + 'px';
+    hill5.style.left = value * 0.5 + 'px';
+    hill1.style.top = value * 1 + 'px';
+  }
 };
 
 window.addEventListener('scroll', handleScroll);
