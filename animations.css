@@ -198,7 +198,7 @@
   animation-delay: 500ms;
 } */
 
-.box8,
+/* .box8,
 .box81 {
   animation: bounce 0.3s cubic-bezier(0.2, 0.65, 0.6, 1);
   animation-iteration-count: infinite;
@@ -211,4 +211,4 @@
 .box81 {
   --bounce-offset: 40px;
   animation-duration: 400ms;
-}
+} */
